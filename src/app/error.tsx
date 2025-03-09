@@ -8,7 +8,7 @@ type Props = {
   error: Error & { digest?: string };
   reset: () => void;
 };
-export default function ({ error, reset }: Props): ReactElement {
+export default function Error({ error, reset }: Props): ReactElement {
   return (
     <div className={styles["error"]}>
       <div className={styles.writings}>
