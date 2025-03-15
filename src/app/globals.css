@@ -82,7 +82,7 @@ body {
 
   font-size: var(--fz-400);
 
-  >* {
+  > * {
     padding-inline: var(--full-width-padding-inline);
   }
 
