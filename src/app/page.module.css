@@ -24,13 +24,11 @@
     align-items: center;
     gap: 1rem;
 
-
-
-    >ul {
+    > ul {
       display: flex;
       gap: 1rem;
 
-      >li {
+      > li {
         background-color: var(--color-gray-20);
 
         padding: 0.25rem 0.75rem;
